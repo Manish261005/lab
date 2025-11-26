@@ -1,0 +1,10 @@
+{
+  "name": "fullstack-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal fullstack scaffold (static frontend + Flask backend)",
+  "scripts": {
+    "start:frontend": "npx http-server frontend -p 3000",
+    "start:backend": "python backend/app.py"
+  }
+}
